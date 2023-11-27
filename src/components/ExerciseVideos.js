@@ -16,7 +16,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
                 <a
                     key={index}
                     className='exercise-video'
-                    href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
+                    href={`https://utude-clone.vercel.app/video/${item.video.videoId}`}
                     target='_blank' 
                     rel='noreferrer'
                 >
